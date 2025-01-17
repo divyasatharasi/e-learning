@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabbed Interface with Bootstrap</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../css/check-out.css" rel="stylesheet">
+
+</head>
+<body>
+  <div class="container mt-4">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="cart-tab" data-toggle="tab" href="#cart" role="tab" aria-controls="cart" aria-selected="true">Cart & Checkout</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="order-tab" data-toggle="tab" href="#order" role="tab" aria-controls="order" aria-selected="false">Order Summary</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="customer-tab" data-toggle="tab" href="#customer" role="tab" aria-controls="customer" aria-selected="false">Customer Information</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="payment-tab" data-toggle="tab" href="#payment" role="tab" aria-controls="payment" aria-selected="false">Payment Details</a>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <!-- Cart & Checkout Tab -->
+      <div class="tab-pane fade show active" id="cart" role="tabpanel" aria-labelledby="cart-tab">
+        <h3>Cart & Checkout</h3>
+        <p>Your cart items and checkout options will be displayed here.</p>
+        <!-- Add cart and checkout content here -->
+      </div>
+      <!-- Order Summary Tab -->
+      <div class="tab-pane fade" id="order" role="tabpanel" aria-labelledby="order-tab">
+        <h3>Order Summary</h3>
+        <p>Here is the summary of your order:</p>
+        <ul>
+          <li>Product Name: Example Product 1</li>
+          <li>Product Details: Description of product 1</li>
+        </ul>
+        <div class="form-group">
+          <label for="couponCode">Coupon Code</label>
+          <input type="text" class="form-control" id="couponCode" placeholder="Enter coupon code">
+        </div>
+        <p>Total Price: $100.00</p>
+        <p>Grand Total: $90.00 (after applying coupon)</p>
+        <button class="btn btn-primary next-step" data-toggle="tab" href="#customer">Next Step</button>
+      </div>
+      <!-- Customer Information Tab -->
+      <div class="tab-pane fade" id="customer" role="tabpanel" aria-labelledby="customer-tab">
+        <h3>Customer Information</h3>
+        <form>
+          <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input type="text" class="form-control" id="firstName" required>
+          </div>
+          <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input type="text" class="form-control" id="lastName" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="form-group">
+            <label for="alternateEmail">Alternate Email Address</label>
+            <input type="email" class="form-control" id="alternateEmail">
+          </div>
+          <div class="form-group">
+            <label for="confirmAlternateEmail">Enter Alternate Email Address</label>
+            <input type="email" class="form-control" id="confirmAlternateEmail">
+          </div>
+          <div class="form-group">
+            <label for="phoneNumber">Phone Number</label>
+            <input type="tel" class="form-control" id="phoneNumber" required>
+          </div>
+          <div class="form-group">
+            <label for="alternatePhoneNumber">Alternate Phone Number</label>
+            <input type="tel" class="form-control" id="alternatePhoneNumber">
+          </div>
+          <div class="form-group">
+            <label for="confirmAlternatePhoneNumber">Enter Alternate Phone Number</label>
+            <input type="tel" class="form-control" id="confirmAlternatePhoneNumber">
+          </div>
+          <div class="form-group">
+            <label for="address">Address</label>
+            <textarea class="form-control" id="address" rows="3" required></textarea>
+          </div>
+          <button class="btn btn-primary next-step" data-toggle="tab" href="#payment">Next Step</button>
+        </form>
+      </div>
+      <!-- Payment Details Tab -->
+      <div class="tab-pane fade" id="payment" role="tabpanel" aria-labelledby="payment-tab">
+        <h3>Payment Details</h3>
+        <form>
+          <div class="form-group">
+            <label for="cardNumber">Card Number</label>
+            <input type="text" class="form-control" id="cardNumber" required>
+          </div>
+          <div class="form-group">
+            <label for="expiryDate">Expiry Date</label>
+            <input type="text" class="form-control" id="expiryDate" placeholder="MM/YY" required>
+          </div>
+          <div class="form-group">
+            <label for="cvv">CVV</label>
+            <input type="text" class="form-control" id="cvv" required>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit Payment</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

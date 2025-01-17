@@ -1,0 +1,73 @@
+.session-list-modal {
+    display: flex;
+    /* padding-right: 0.200073px; */
+    justify-content: center;
+}
+
+.session-list-modal-dialog {
+    transform: none;
+    display: flex;
+    justify-content: center;
+    max-width: 70rem;
+}
+
+.selection-form {
+    display: flex;
+}
+.form-group {
+    display: flex;
+}
+.hidden-list {
+    display: none;
+    margin-top: 20px;
+  }
+
+  .session-list {
+    margin: 20px 0;
+  }
+
+  .session-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .session-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .session-icon {
+    margin-right: 10px;
+    color: #007bff;
+  }
+
+  .session-col {
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+
+  .session-col:not(:last-child) {
+    margin-right: 15px;
+  }
+
+  .btn-action {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .btn-action:hover {
+    background-color: #0056b3;
+  }

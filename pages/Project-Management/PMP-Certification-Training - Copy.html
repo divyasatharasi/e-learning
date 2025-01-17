@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>eLEARNING - eLearning HTML Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="../../img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="../../lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="../../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+   
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary"><i class="fa fa-book me-3"></i>eLEARNING</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="about.html" class="nav-item nav-link">About Us</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Courses</a>
+                    <div class="dropdown-menu fade-down m-0">
+                      <a href="courses.html" class="dropdown-item">All Courses</a>
+                      <div class="dropdown-submenu-level level-1">
+                        <a href="#" class="nav-link-item dropdown-submenu-toggle" data-bs-toggle="dropdown">Project Management</a>
+                        <div class="dropdown-menu dropdown-submenu fade-down m-0">
+                          <a href="#" class="dropdown-item">Project Management Professional (PMP)® Certification Training</a>
+                          <a href="#" class="dropdown-item">CAPM® Certification Training</a>
+                          <a href="#" class="dropdown-item">PgMP® Certification Training</a>
+                          <a href="#" class="dropdown-item">Prince 2® Foundation and Practitioner Certification Training</a>
+                          <a href="#" class="dropdown-item">PMI-RMP® Certification Training</a>
+                        </div>
+                      </div>
+                      <div class="dropdown-submenu-level level-2">
+                        <a href="#" class="nav-link-item dropdown-submenu-toggle" data-bs-toggle="dropdown">SAFe</a>
+                        <div class="dropdown-menu dropdown-submenu fade-down m-0">
+                          <a href="#" class="dropdown-item">Leading SAFe® 6.0 Training</a>
+                          <a href="#" class="dropdown-item">SAFe® 6.0 Scrum Master (SSM) Certification Training</a>
+                          <a href="#" class="dropdown-item">Lean Portfolio Management (LPM) Certification Training</a>
+                          <a href="#" class="dropdown-item">SAFe® 6.0 Product Owner Product Manager Certification Training</a>
+                        </div>
+                      </div>
+                      <div class="dropdown-submenu-level level-3">
+                        <a href="#" class="nav-link-item dropdown-submenu-toggle" data-bs-toggle="dropdown">Lean and Six Sigma</a>
+                        <div class="dropdown-menu dropdown-submenu fade-down m-0">
+                          <a href="#" class="dropdown-item">Lean Six Sigma Green Belt Certification</a>
+                          <a href="#" class="dropdown-item">Lean Six Sigma Black Belt Certification</a>
+                          <a href="#" class="dropdown-item">Lean Six Sigma Yellow Belt Certification Training</a>
+                        </div>
+                      </div>
+                      <div class="dropdown-submenu-level level-4">
+                        <a href="#" class="nav-link-item dropdown-submenu-toggle" data-bs-toggle="dropdown">Agile and Scrum</a>
+                        <div class="dropdown-menu dropdown-submenu fade-down m-0">
+                          <a href="#" class="dropdown-item">Certified Scrum Master® (CSM)</a>
+                          <a href="#" class="dropdown-item">Certified Scrum Product Owner (CSPO)</a>
+                          <a href="#" class="dropdown-item">PMI-ACP® Certification</a>
+                        </div>
+                      </div>
+                      <div class="dropdown-submenu-level level-5">
+                        <a href="#" class="nav-link-item dropdown-submenu-toggle" data-bs-toggle="dropdown">IT Service and Architecture</a>
+                        <div class="dropdown-menu dropdown-submenu fade-down m-0">
+                          <a href="#" class="dropdown-item">ITIL® 4 Foundation Training</a>
+                        </div>
+                      </div>
+                      <div class="dropdown-submenu-level level-6">
+                        <a href="#" class="nav-link-item dropdown-submenu-toggle" data-bs-toggle="dropdown">One Day Courses</a>
+                        <div class="dropdown-menu dropdown-submenu fade-down m-0">
+                          <a href="#" class="dropdown-item">Agile and Scrum</a>
+                          <a href="#" class="dropdown-item">Business Case Writing</a>
+                          <a href="#" class="dropdown-item">Conflict Management</a>
+                          <a href="#" class="dropdown-item">Change Management</a>
+                          <a href="#" class="dropdown-item">Project Management Techniques</a>
+                        </div>
+                      </div>
+                      <div class="dropdown-submenu-level level-7">
+                        <a href="#" class="nav-link-item dropdown-submenu-toggle" data-bs-toggle="dropdown">Information Security</a>
+                        <div class="dropdown-menu dropdown-submenu fade-down m-0">
+                          <!-- Add submenu items here if needed -->
+                        </div>
+                      </div>
+                      <div class="dropdown-submenu-level level-8">
+                        <a href="#" class="nav-link-item dropdown-submenu-toggle" data-bs-toggle="dropdown">DevOps and Salesforce</a>
+                        <div class="dropdown-menu dropdown-submenu fade-down m-0">
+                          <a href="#" class="dropdown-item">DevOps Certification Training</a>
+                          <a href="#" class="dropdown-item">DevOps Leader Certification Training</a>
+                          <a href="#" class="dropdown-item">Salesforce Administrator Certification Training</a>
+                          <a href="#" class="dropdown-item">Salesforce Certification Training Admin 201 and App Builder</a>
+                          <a href="#" class="dropdown-item">Salesforce App Builder Certification Training</a>
+                        </div>
+                      </div>
+                      <div class="dropdown-submenu-level level-9">
+                        <a href="#" class="nav-link-item dropdown-submenu-toggle" data-bs-toggle="dropdown">Analytics and Data Management</a>
+                        <div class="dropdown-menu dropdown-submenu fade-down m-0">
+                          <a href="#" class="dropdown-item">Data Science Certification Training</a>
+                          <a href="#" class="dropdown-item">Big Data Hadoop Developer Certification Training</a>
+                          <a href="#" class="dropdown-item">Big Data Hadoop Administrator Certification Training</a>
+                        </div>
+                      </div>
+                      <div class="dropdown-submenu-level level-10">
+                        <a href="#" class="nav-link-item dropdown-submenu-toggle" data-bs-toggle="dropdown">Cloud Computing</a>
+                        <div class="dropdown-menu dropdown-submenu fade-down m-0">
+                          <a href="#" class="dropdown-item">Machine Learning Certification Course</a>
+                          <a href="#" class="dropdown-item">AWS Architect Certification Training</a>
+                        </div>
+                      </div>
+                      <div class="dropdown-submenu-level level-11">
+                        <a href="#" class="nav-link-item dropdown-submenu-toggle" data-bs-toggle="dropdown">Digital Marketing</a>
+                        <div class="dropdown-menu dropdown-submenu fade-down m-0">
+                          <a href="#" class="dropdown-item">Certified Digital Marketing Professional Training</a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <a href="#" class="nav-item nav-link">Corporate Training</a>
+                <a href="team.html" class="nav-item nav-link">Trainers</a>
+                <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+              </div>
+              
+            <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Join Now<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+
+    <!-- Categories Start -->
+    <div class="container-xxl py-5 category">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <!-- <h6 class="section-title bg-white text-center text-primary px-3">Categories</h6> -->
+                <h3 class="mb-3 course-title text-primary">Project Management Professional (PMP)® Certification Training</h3>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-7 col-md-6">
+                    <div class="row g-3">
+                        <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                            <p>Gain a globally recognized credential with our PMP® Certification Training. Designed for aspiring and experienced project managers, this course provides a comprehensive understanding of project management frameworks, tools, and methodologies aligned with PMI standards. Enhance your leadership and management skills to execute projects successfully across industries.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 300px;">
+                    <a class="position-relative d-block h-100 overflow-hidden" href="">
+                        <img class="img-fluid position-absolute w-100 h-100" src="../../img/cat-4.jpg" alt="" style="object-fit: cover;">
+                        
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Categories Start -->
+
+
+    <!-- Courses Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h4 class="section-title bg-white text-center text-primary px-3">Course Overview</h4>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-7 col-md-6">
+                    <div class="row g-3">
+                        <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                            <div>
+                                <p>
+                                    The Project Management Professional (PMP)® certification is one of the most respected credentials in the field of project management. This course provides an in-depth understanding of the frameworks, methodologies, and best practices required to successfully manage projects of varying complexity. Aligned with the latest PMBOK® Guide and PMI standards, our PMP® Certification Training combines theoretical concepts with real-world applications to prepare you for the challenges of modern project management.
+                                </p>
+                                <p>
+                                    The training goes beyond just exam preparation. It is designed to build your confidence in managing budgets, resources, risks, and timelines effectively while aligning project goals with business strategies. You’ll gain skills in:
+                                </p>
+                                <ul>
+                                    <li><strong>Agile and Hybrid Methodologies</strong>: Adapt project management techniques for flexible and fast-changing environments.</li><li><strong>Risk and Quality Management</strong>: Identify, assess, and mitigate risks while ensuring project deliverables meet high-quality standards.</li><li><strong>Stakeholder Engagement</strong>: Enhance communication skills to manage stakeholder expectations and lead diverse teams effectively.</li><li><strong>Business Environment Adaptation</strong>: Align projects with the organizational vision and ensure value delivery.</li>
+                                </ul>
+                                <p>
+                                    Our expert trainers bring decades of experience, ensuring you gain both theoretical insights and practical tools to excel in your career. Whether you're preparing for the PMP® exam or simply looking to upskill, this course offers a holistic learning experience tailored to your needs.
+                                </p>
+                            </div>
+                        <!-- </div> -->
+                        <br>
+                        <br>
+                        <h4>What Is Project Management Professional (PMP)® Certification Training ?</h4>
+                        <p class="choose-description coursedetails-description">
+                            <div>
+                                <p>
+                                    The <strong>Project Management Professional (PMP)® Certification Training</strong> is a globally recognized program that equips professionals with advanced project management skills and knowledge. Offered by the Project Management Institute (PMI), the PMP® certification validates a project manager’s ability to lead and direct teams to achieve project goals within constraints like time, budget, and scope.</p><p>This training serves as a structured pathway to understanding the science and art of project management. Here’s what it entails:
+                                    </p>
+                                    <ul>
+                                        <li><strong>Comprehensive Curriculum</strong>: Covers the full spectrum of project management, from initiating a project to closing it successfully, including planning, execution, monitoring, and control.</li><li><strong>Focus on Modern Techniques</strong>: Emphasizes agile practices, hybrid methodologies, and tools like Kanban and Scrum to ensure participants can handle contemporary challenges in dynamic industries.</li><li><strong>Aligned with PMI Standards</strong>: Based on PMI’s latest exam content outline, which includes three key domains—People, Process, and Business Environment.</li><li><strong>Hands-On Approach</strong>: Includes real-world scenarios, case studies, and role-playing exercises to ensure you can apply concepts effectively.</li>
+                                    </ul>
+                                    <p>
+                                        Achieving the PMP® certification demonstrates your commitment to professional excellence, making you a standout candidate for leadership roles in industries such as IT, construction, healthcare, and finance. This training not only helps you ace the exam but also transforms you into a strategic thinker and problem solver.
+                                    </p>
+                                </div>
+                            </p>
+                            <br>
+                            <br>
+                            <h4>Key Features Of Project Management Professional (PMP)® Certification Training</h4>
+                            <div class="coursedetails-featuresbg">
+                                <div class="row">
+                                    <div class="col-12 col-sm-6">
+                                        <div class="coursedetailsfeatures-row">
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angles-right" class="svg-inline--fa fa-angles-right coursedetailsicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"></path></svg>
+                                            <p class="choose-description coursedetailsfeatures-desc">35+ Hours of Instructor-Led Training: Intensive sessions to cover all topics in depth.
+                                            </p>
+                                        </div>
+                                        <div class="coursedetailsfeatures-row"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angles-right" class="svg-inline--fa fa-angles-right coursedetailsicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"></path></svg>
+                                            <p class="choose-description coursedetailsfeatures-desc">Mock Exams and Practice Questions: Test your knowledge with simulation exams designed to mirror the actual PMP® exam.
+                                            </p>
+                                        </div>
+                                        <div class="coursedetailsfeatures-row"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angles-right" class="svg-inline--fa fa-angles-right coursedetailsicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"></path></svg><p class="choose-description coursedetailsfeatures-desc">24/7 Support: Get round-the-clock assistance for doubts and queries.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6">
+                                            <div class="coursedetailsfeatures-row"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angles-right" class="svg-inline--fa fa-angles-right coursedetailsicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"></path></svg><p class="choose-description coursedetailsfeatures-desc">PMBOK® Guide Alignment: Learn the latest updates and frameworks from PMI.</p>
+                                            </div>
+                                            <div class="coursedetailsfeatures-row"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angles-right" class="svg-inline--fa fa-angles-right coursedetailsicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"></path></svg><p class="choose-description coursedetailsfeatures-desc">Flexible Learning Options: Online live classes or self-paced learning to fit your schedule.</p>
+                                            </div>
+                                            <div class="coursedetailsfeatures-row"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angles-right" class="svg-inline--fa fa-angles-right coursedetailsicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M470.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 256 265.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L210.7 256 73.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"></path></svg><p class="choose-description coursedetailsfeatures-desc">Certification Guidance: Assistance with the PMP® application process and tips for success.</p>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 wow zoomIn"><div class="features-right-div"><div class="whocanattenddiv"><p>Who Can Attend</p></div><div class=""><p class="choose-description coursedetails-whicanattend"><div><p>This course is ideal for:</p></div></p><div class="coursedetails-whicanattend-pointsidv"><div class="coursedetailsfeatures-row"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-point-right" class="svg-inline--fa fa-hand-point-right coursedetailsicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M480 96c17.7 0 32 14.3 32 32s-14.3 32-32 32l-208 0 0-64 208 0zM320 288c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l64 0zm64-64c0 17.7-14.3 32-32 32l-48 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l48 0c17.7 0 32 14.3 32 32zM288 384c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l64 0zm-88-96l.6 0c-5.4 9.4-8.6 20.3-8.6 32c0 13.2 4 25.4 10.8 35.6C177.9 364.3 160 388.1 160 416c0 11.7 3.1 22.6 8.6 32l-8.6 0C71.6 448 0 376.4 0 288l0-61.7c0-42.4 16.9-83.1 46.9-113.1l11.6-11.6C82.5 77.5 115.1 64 149 64l27 0c35.3 0 64 28.7 64 64l0 88c0 22.1-17.9 40-40 40s-40-17.9-40-40l0-56c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 56c0 39.8 32.2 72 72 72z"></path></svg><p class="choose-description coursedetailsfeatures-desc">Experienced Project Managers: Individuals who lead projects and want to validate their expertise.</p></div><div class="coursedetailsfeatures-row"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-point-right" class="svg-inline--fa fa-hand-point-right coursedetailsicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M480 96c17.7 0 32 14.3 32 32s-14.3 32-32 32l-208 0 0-64 208 0zM320 288c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l64 0zm64-64c0 17.7-14.3 32-32 32l-48 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l48 0c17.7 0 32 14.3 32 32zM288 384c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l64 0zm-88-96l.6 0c-5.4 9.4-8.6 20.3-8.6 32c0 13.2 4 25.4 10.8 35.6C177.9 364.3 160 388.1 160 416c0 11.7 3.1 22.6 8.6 32l-8.6 0C71.6 448 0 376.4 0 288l0-61.7c0-42.4 16.9-83.1 46.9-113.1l11.6-11.6C82.5 77.5 115.1 64 149 64l27 0c35.3 0 64 28.7 64 64l0 88c0 22.1-17.9 40-40 40s-40-17.9-40-40l0-56c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 56c0 39.8 32.2 72 72 72z"></path></svg><p class="choose-description coursedetailsfeatures-desc">Team Leaders &amp; Program Managers: Professionals looking to step into higher management roles.</p></div><div class="coursedetailsfeatures-row"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-point-right" class="svg-inline--fa fa-hand-point-right coursedetailsicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M480 96c17.7 0 32 14.3 32 32s-14.3 32-32 32l-208 0 0-64 208 0zM320 288c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l64 0zm64-64c0 17.7-14.3 32-32 32l-48 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l48 0c17.7 0 32 14.3 32 32zM288 384c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l64 0zm-88-96l.6 0c-5.4 9.4-8.6 20.3-8.6 32c0 13.2 4 25.4 10.8 35.6C177.9 364.3 160 388.1 160 416c0 11.7 3.1 22.6 8.6 32l-8.6 0C71.6 448 0 376.4 0 288l0-61.7c0-42.4 16.9-83.1 46.9-113.1l11.6-11.6C82.5 77.5 115.1 64 149 64l27 0c35.3 0 64 28.7 64 64l0 88c0 22.1-17.9 40-40 40s-40-17.9-40-40l0-56c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 56c0 39.8 32.2 72 72 72z"></path></svg><p class="choose-description coursedetailsfeatures-desc">Engineers &amp; Consultants: Those involved in project execution and delivery.</p></div><div class="coursedetailsfeatures-row"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-point-right" class="svg-inline--fa fa-hand-point-right coursedetailsicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M480 96c17.7 0 32 14.3 32 32s-14.3 32-32 32l-208 0 0-64 208 0zM320 288c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l64 0zm64-64c0 17.7-14.3 32-32 32l-48 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l48 0c17.7 0 32 14.3 32 32zM288 384c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l64 0zm-88-96l.6 0c-5.4 9.4-8.6 20.3-8.6 32c0 13.2 4 25.4 10.8 35.6C177.9 364.3 160 388.1 160 416c0 11.7 3.1 22.6 8.6 32l-8.6 0C71.6 448 0 376.4 0 288l0-61.7c0-42.4 16.9-83.1 46.9-113.1l11.6-11.6C82.5 77.5 115.1 64 149 64l27 0c35.3 0 64 28.7 64 64l0 88c0 22.1-17.9 40-40 40s-40-17.9-40-40l0-56c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 56c0 39.8 32.2 72 72 72z"></path></svg><p class="choose-description coursedetailsfeatures-desc">Aspiring Managers: Individuals transitioning to project management roles.</p></div><div class="coursedetailsfeatures-row"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="hand-point-right" class="svg-inline--fa fa-hand-point-right coursedetailsicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M480 96c17.7 0 32 14.3 32 32s-14.3 32-32 32l-208 0 0-64 208 0zM320 288c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l64 0zm64-64c0 17.7-14.3 32-32 32l-48 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l48 0c17.7 0 32 14.3 32 32zM288 384c17.7 0 32 14.3 32 32s-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32s14.3-32 32-32l64 0zm-88-96l.6 0c-5.4 9.4-8.6 20.3-8.6 32c0 13.2 4 25.4 10.8 35.6C177.9 364.3 160 388.1 160 416c0 11.7 3.1 22.6 8.6 32l-8.6 0C71.6 448 0 376.4 0 288l0-61.7c0-42.4 16.9-83.1 46.9-113.1l11.6-11.6C82.5 77.5 115.1 64 149 64l27 0c35.3 0 64 28.7 64 64l0 88c0 22.1-17.9 40-40 40s-40-17.9-40-40l0-56c0-8.8-7.2-16-16-16s-16 7.2-16 16l0 56c0 39.8 32.2 72 72 72z"></path></svg><p class="choose-description coursedetailsfeatures-desc">Eligibility Requirements: Ensure you meet PMI’s prerequisites, including relevant work experience and 35 hours of project management education.</p></div></div></div></div></div>
+            </div>
+          
+
+            <section id="curriculum"><div class="home-section2 coursedetails-section4"><div class="pagewidth">
+                <h4 class="section-title bg-white text-center text-primary px-3">Course Curriculum</h4><div class=""><div class="whocanattenddiv downloadbrochurebtn"><p>Download Brochure</p></div></div><div class="coursedetails-modulesmaindiv"><div class="coursedetails-card"><div class="coursedetails-cardheader"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-up" class="svg-inline--fa fa-chevron-up coursedetailscardicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z"></path></svg><p>Introduction to PMP</p></div><div class="coursedetails-cardbody"><p class="choose-description modules-description"><div><ul><li>All About the PMP Exam</li><li>PMP Exam Application</li><li>Maintaining Your PMP</li></ul></div></p></div></div><div class="coursedetails-card"><div class="coursedetails-cardheader"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down coursedetailscardicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"></path></svg><p>Introduction to the Project Management</p></div></div><div class="coursedetails-card"><div class="coursedetails-cardheader"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down coursedetailscardicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"></path></svg><p>Environments in Which Projects Operate</p></div></div><div class="coursedetails-card"><div class="coursedetails-cardheader"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down coursedetailscardicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"></path></svg><p>Role of the Project Manager</p></div></div><div class="coursedetails-card"><div class="coursedetails-cardheader"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down coursedetailscardicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"></path></svg><p>Project Integration Management</p></div></div><div class="coursedetails-card"><div class="coursedetails-cardheader"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down coursedetailscardicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"></path></svg><p>Project Scope Management</p></div></div><div class="coursedetails-card"><div class="coursedetails-cardheader"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down coursedetailscardicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"></path></svg><p>Project Schedule Management</p></div></div><div class="coursedetails-card"><div class="coursedetails-cardheader"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down coursedetailscardicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"></path></svg><p>Project Cost Management</p></div></div><div class="coursedetails-card"><div class="coursedetails-cardheader"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down coursedetailscardicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"></path></svg><p>Project Quality Management</p></div></div><div class="coursedetails-card"><div class="coursedetails-cardheader"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down coursedetailscardicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"></path></svg><p>Project Resources Management</p></div></div><div class="coursedetails-card"><div class="coursedetails-cardheader"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down coursedetailscardicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"></path></svg><p>Project Communications Management</p></div></div><div class="coursedetails-card"><div class="coursedetails-cardheader"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down coursedetailscardicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"></path></svg><p>Project Risk Management</p></div></div><div class="coursedetails-card"><div class="coursedetails-cardheader"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down coursedetailscardicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"></path></svg><p>Project Procurement Management</p></div></div><div class="coursedetails-card"><div class="coursedetails-cardheader"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down coursedetailscardicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"></path></svg><p>Project Stakeholder Management</p></div></div><div class="coursedetails-card"><div class="coursedetails-cardheader"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down coursedetailscardicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"></path></svg><p>The PMI Code of Ethics and Professional Conduct</p></div></div></div></div></div>
+            </section>
+
+            <section id="schedules" class="schedules"><div class="home-section2 coursedetails-section5"><div class="pagewidth"><p class="section-head coursedetails-batcheshead">Schedules for Project Management Professional (PMP)® Certification Training</p><p class="choose-description coursedetails-batchessubhead"><div><p>We understand that every learner has unique needs and time constraints. That’s why we offer flexible training schedules tailored to fit your lifestyle and learning preferences. Choose from one of the following modes of delivery:</p></div></p><div class="coursedetails-batchesdiv"><div class="row"><div class="col-12 col-sm-4 mb-3"><div class="batches-boxdiv"><div class="whocanattenddiv inpersonbtn"><p>In-Person Classroom</p></div><div class="coursedetails-whicanattend-pointsidv inpersonpointsdiv"><div class="coursedetailsfeatures-row"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="circle-check" class="svg-inline--fa fa-circle-check coursedetailsicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"></path></svg><p class="choose-description coursedetailsfeatures-desc">Face-to-face interaction with experienced trainers.</p></div><div class="coursedetailsfeatures-row"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="circle-check" class="svg-inline--fa fa-circle-check coursedetailsicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"></path></svg><p class="choose-description coursedetailsfeatures-desc">Group activities, hands-on exercises, and case studies to reinforce learning.</p></div><div class="coursedetailsfeatures-row"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="circle-check" class="svg-inline--fa fa-circle-check coursedetailsicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"></path></svg><p class="choose-description coursedetailsfeatures-desc">Networking opportunities with fellow professionals from diverse industries.</p></div><div class="coursedetailsfeatures-row"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="circle-check" class="svg-inline--fa fa-circle-check coursedetailsicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"></path></svg><p class="choose-description coursedetailsfeatures-desc">Conducted in major cities across the globe, including flexible weekday and weekend batches.</p></div><div class="coursedetailsfeatures-row"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="circle-check" class="svg-inline--fa fa-circle-check coursedetailsicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"></path></svg><p class="choose-description coursedetailsfeatures-desc">Learners who prefer a structured and distraction-free environment with immediate access to instructor guidance.</p></div><div class="adjust_bottom_schedulediv"><div class="inperson-pricediv"><p class="cancelledprice"><del>$ 2799</del></p><p class="offerprice">$ 2499</p></div><div class="inperson-registerbtn"><p>Register Now</p></div></div></div></div></div><div class="col-12 col-sm-4 mb-3"><div class="batches-boxdiv"><div class="whocanattenddiv inpersonbtn"><p>Live Online Classroom</p></div><div class="coursedetails-whicanattend-pointsidv inpersonpointsdiv"><div class="coursedetailsfeatures-row"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="circle-check" class="svg-inline--fa fa-circle-check coursedetailsicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"></path></svg><p class="choose-description coursedetailsfeatures-desc">Live, instructor-led classes conducted through an easy-to-use virtual platform.</p></div><div class="coursedetailsfeatures-row"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="circle-check" class="svg-inline--fa fa-circle-check coursedetailsicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"></path></svg><p class="choose-description coursedetailsfeatures-desc">Recordings of all sessions for revision and review.</p></div><div class="coursedetailsfeatures-row"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="circle-check" class="svg-inline--fa fa-circle-check coursedetailsicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"></path></svg><p class="choose-description coursedetailsfeatures-desc">Real-time Q&amp;A sessions and peer collaboration in virtual breakout rooms.</p></div><div class="coursedetailsfeatures-row"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="circle-check" class="svg-inline--fa fa-circle-check coursedetailsicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"></path></svg><p class="choose-description coursedetailsfeatures-desc">Flexible schedules with weekday evening and weekend options to suit working professionals.</p></div><div class="coursedetailsfeatures-row"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="circle-check" class="svg-inline--fa fa-circle-check coursedetailsicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"></path></svg><p class="choose-description coursedetailsfeatures-desc">Busy professionals who want a live, interactive learning experience without the need for travel.</p></div><div class="adjust_bottom_schedulediv"><div class="inperson-pricediv"><p class="cancelledprice"><del>$ 1299</del></p><p class="offerprice">$ 999</p></div><div class="inperson-registerbtn"><p>Register Now</p></div></div></div></div></div><div class="col-12 col-sm-4 mb-3"><div class="batches-boxdiv"><div class="whocanattenddiv inpersonbtn"><p>Online Self Study</p></div><div class="coursedetails-whicanattend-pointsidv inpersonpointsdiv"><div class="coursedetailsfeatures-row"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="circle-check" class="svg-inline--fa fa-circle-check coursedetailsicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"></path></svg><p class="choose-description coursedetailsfeatures-desc">Comprehensive e-learning modules with interactive lessons and quizzes.</p></div><div class="coursedetailsfeatures-row"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="circle-check" class="svg-inline--fa fa-circle-check coursedetailsicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"></path></svg><p class="choose-description coursedetailsfeatures-desc">Access to practice exams, digital study guides, and project management templates.</p></div><div class="coursedetailsfeatures-row"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="circle-check" class="svg-inline--fa fa-circle-check coursedetailsicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"></path></svg><p class="choose-description coursedetailsfeatures-desc">Dedicated online support for queries and guidance.</p></div><div class="coursedetailsfeatures-row"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="circle-check" class="svg-inline--fa fa-circle-check coursedetailsicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"></path></svg><p class="choose-description coursedetailsfeatures-desc">Accessible 24/7, so you can study anytime, anywhere.</p></div><div class="coursedetailsfeatures-row"><svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="circle-check" class="svg-inline--fa fa-circle-check coursedetailsicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"></path></svg><p class="choose-description coursedetailsfeatures-desc">Independent learners who prefer flexibility and can manage their own study schedules.</p></div><div class="adjust_bottom_schedulediv"><div class="inperson-pricediv"><p class="cancelledprice"><del>$ 999</del></p><p class="offerprice">$ 899</p></div><div class="inperson-registerbtn"><p>Register Now</p></div></div></div></div></div></div></div></div></div>
+            </section>
+
+<!-- trainers block -->
+
+<!-- End trainers block -->
+
+<!-- FAQs -->
+<section id="faqs"><div class="home-section2 coursedetails-section4"><div class="pagewidth"><p class="section-head ">Frequently Asked Questions about Project Management Professional (PMP)® Certification Training</p><br><div class="coursedetails-modulesmaindiv"><div class="coursedetails-card"><div class="coursedetails-cardheader"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down coursedetailscardicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"></path></svg><p>What is the duration of the PMP® training course?</p></div></div><div class="coursedetails-card"><div class="coursedetails-cardheader"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down coursedetailscardicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"></path></svg><p>What study materials are provided?</p></div></div><div class="coursedetails-card"><div class="coursedetails-cardheader"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down coursedetailscardicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"></path></svg><p>What happens if I fail the PMP® exam?</p></div></div><div class="coursedetails-card"><div class="coursedetails-cardheader"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down coursedetailscardicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"></path></svg><p>Is this certification recognized globally?</p></div></div><div class="coursedetails-card"><div class="coursedetails-cardheader"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down coursedetailscardicons" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"></path></svg><p>How can I maintain my PMP® Certification?</p></div></div></div></div></div>
+</section>
+
+<!-- ENd of FAQs -->
+
+<!-- Testimonials / Reviews -->
+
+<section id="reviews"><div class="home-section2 coursedetails-section4"><div class="pagewidth"><p class="section-head ">Our Learners Reviews from Trustpilot</p></div><br><br><div class="carousel slide"><div class="carousel-indicators"><button type="button" data-bs-target="" aria-label="Slide 1" aria-current="false"></button><button type="button" data-bs-target="" aria-label="Slide 2" aria-current="false"></button><button type="button" data-bs-target="" aria-label="Slide 3" aria-current="false"></button><button type="button" data-bs-target="" aria-label="Slide 4" aria-current="true" class="active"></button><button type="button" data-bs-target="" aria-label="Slide 5" aria-current="false"></button></div><div class="carousel-inner"><div class="carousel-item"><div class="coursedetails-testimonialdiv"><p class="coursedetails-testiname">Marian Bebec</p><span class="style-module_starRatingWrap__q-lJC" style="direction: ltr;"><span class="style-module_simpleStarRating__nWUxf react-simple-star-rating" aria-hidden="true"><span class="style-module_emptyIcons__Bg-FZ empty-icons" style="color: rgb(204, 204, 204);"><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg></span><span class="style-module_fillIcons__6---A filled-icons" title="4 out of 5" style="left: 0px; color: rgb(10, 182, 123); width: 80%;"><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg></span></span></span><p class="coursedetails-testicountry">Thailand</p><p class="choose-description coursedetails-desc">This training was outstanding. The instructors broke down complex concepts into digestible modules, and the practice exams made me confident on test day.</p></div></div><div class="carousel-item"><div class="coursedetails-testimonialdiv"><p class="coursedetails-testiname">Jennifer Chiya</p><span class="style-module_starRatingWrap__q-lJC" style="direction: ltr;"><span class="style-module_simpleStarRating__nWUxf react-simple-star-rating" aria-hidden="true"><span class="style-module_emptyIcons__Bg-FZ empty-icons" style="color: rgb(204, 204, 204);"><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg></span><span class="style-module_fillIcons__6---A filled-icons" title="5 out of 5" style="left: 0px; color: rgb(10, 182, 123); width: 100%;"><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg></span></span></span><p class="coursedetails-testicountry">USA</p><p class="choose-description coursedetails-desc">The course provided me with a structured learning path and actionable insights. I passed my PMP® exam on the first attempt!</p></div></div><div class="carousel-item"><div class="coursedetails-testimonialdiv"><p class="coursedetails-testiname">Sophia Green</p><span class="style-module_starRatingWrap__q-lJC" style="direction: ltr;"><span class="style-module_simpleStarRating__nWUxf react-simple-star-rating" aria-hidden="true"><span class="style-module_emptyIcons__Bg-FZ empty-icons" style="color: rgb(204, 204, 204);"><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg></span><span class="style-module_fillIcons__6---A filled-icons" title="4 out of 5" style="left: 0px; color: rgb(10, 182, 123); width: 80%;"><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg></span></span></span><p class="coursedetails-testicountry">USA</p><p class="choose-description coursedetails-desc">The combination of theoretical learning and practical case studies was exactly what I needed. The team’s support was excellent throughout the process.</p></div></div><div class="active carousel-item"><div class="coursedetails-testimonialdiv"><p class="coursedetails-testiname">Ahmed Ali</p><span class="style-module_starRatingWrap__q-lJC" style="direction: ltr;"><span class="style-module_simpleStarRating__nWUxf react-simple-star-rating" aria-hidden="true"><span class="style-module_emptyIcons__Bg-FZ empty-icons" style="color: rgb(204, 204, 204);"><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg></span><span class="style-module_fillIcons__6---A filled-icons" title="5 out of 5" style="left: 0px; color: rgb(10, 182, 123); width: 100%;"><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg></span></span></span><p class="coursedetails-testicountry">UAE</p><p class="choose-description coursedetails-desc">loved the flexibility of online classes. The course materials were well-organized, and the mock tests mirrored the real exam perfectly.</p></div></div><div class="carousel-item"><div class="coursedetails-testimonialdiv"><p class="coursedetails-testiname">Maria Lopez</p><span class="style-module_starRatingWrap__q-lJC" style="direction: ltr;"><span class="style-module_simpleStarRating__nWUxf react-simple-star-rating" aria-hidden="true"><span class="style-module_emptyIcons__Bg-FZ empty-icons" style="color: rgb(204, 204, 204);"><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg></span><span class="style-module_fillIcons__6---A filled-icons" title="5 out of 5" style="left: 0px; color: rgb(10, 182, 123); width: 100%;"><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><svg class="star-svg" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg></span></span></span><p class="coursedetails-testicountry">USA</p><p class="choose-description coursedetails-desc">The PMP® Certification Training has been a pivotal step in my career. It prepared me to lead projects with confidence and efficiency.</p></div></div></div><a class="carousel-control-prev" role="button" tabindex="0" href="#"><span aria-hidden="true" class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" role="button" tabindex="0" href="#"><span aria-hidden="true" class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a></div></div></section>
+
+<!-- End of Reviews -->
+
+<!-- corporate trainings -->
+<section id="corporatetrainings"><div class="home-section2 coursedetails-section6"><div class="pagewidth"><p class="section-head">Upskill Your Teams with our Corporate Group Trainings</p><div class="whocanattenddiv inpersonbtn corportegroup"><p><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="briefcase" class="svg-inline--fa fa-briefcase corporateicon" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M184 48H328c4.4 0 8 3.6 8 8V96H176V56c0-4.4 3.6-8 8-8zm-56 8V96H64C28.7 96 0 124.7 0 160v96H192 320 512V160c0-35.3-28.7-64-64-64H384V56c0-30.9-25.1-56-56-56H184c-30.9 0-56 25.1-56 56zM512 288H320v32c0 17.7-14.3 32-32 32H224c-17.7 0-32-14.3-32-32V288H0V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V288z"></path></svg> Corporate Enquiry</p></div></div></div></section>
+
+<!-- End of corporate trainings -->
+
+        </div>
+    </div>
+    <!-- Courses End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center">
+                <h6 class="section-title bg-white text-center text-primary px-3">Testimonial</h6>
+                <h1 class="mb-5">Our Students Say!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel position-relative">
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="../../img/testimonial-1.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Client Name</h5>
+                    <p>Profession</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="../../img/testimonial-2.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Client Name</h5>
+                    <p>Profession</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="../../img/testimonial-3.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Client Name</h5>
+                    <p>Profession</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="../../img/testimonial-4.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Client Name</h5>
+                    <p>Profession</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+        
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Quick Link</h4>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="">Privacy Policy</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">FAQs & Help</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Contact</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Gallery</h4>
+                    <div class="row g-2 pt-2">
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="../../img/course-1.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="../../img/course-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="../../img/course-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="../../img/course-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="../../img/course-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="../../img/course-1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Newsletter</h4>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
+
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        <!-- Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a><br><br>
+                        Distributed By <a class="border-bottom" href="https://themewagon.com">ThemeWagon</a> -->
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="index.html">Home</a>
+                            <a href="">Cookies</a>
+                            <a href="">Help</a>
+                            <a href="">FQAs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../../lib/wow/wow.min.js"></script>
+    <script src="../../lib/easing/easing.min.js"></script>
+    <script src="../../lib/waypoints/waypoints.min.js"></script>
+    <script src="../../lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="../../js/main.js"></script>
+</body>
+
+</html>

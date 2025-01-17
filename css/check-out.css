@@ -1,0 +1,10 @@
+.tab-content {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+  }
+
+  .next-step {
+    margin-top: 20px;
+  }
