@@ -525,10 +525,30 @@ del {
     font-weight: 600;
 }
 
+.selection-wrapper { 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    width: 100%; 
+} 
+.form-group label { 
+    width: 100%; 
+    text-align: left;
+    padding-top: 4px;
+} 
+/* .form-control, .btn-primary { 
+    width: 100%; 
+} */
+
 
 
 
 /*** Navbar ***/
+
+.home-banner {
+    background-color: #F0FBFC !important;
+    height: 7rem;
+}
 .dropdown .dropdown-menu {
     display: none;
     /* color: darkseagreen; */

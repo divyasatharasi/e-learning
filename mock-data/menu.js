@@ -84,7 +84,7 @@ const menuList = [
   ];
   
 function generateMenuHTML() { 
-    let html = `<li><a class="dropdown-item" href="courses.html">All Courses</a></li>`; 
+    let html = `<li class="nav-item dropend"><a class="dropdown-item" href="courses.html">All Courses</a></li>`; 
     menuList.forEach(item => { 
         if (item.submenu && item.submenu.length > 0) { 
             html += ` <li class="nav-item dropend"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> ${item.title} </a> <ul class="dropdown-menu">`; 
