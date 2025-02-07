@@ -8,3 +8,21 @@
   .next-step {
     margin-top: 20px;
   }
+
+  .ordersummary-btn {
+text-align: center;
+  }
+
+  .error {
+    color: red;
+    display: none;
+}
+.required::after {
+    content: ' *';
+    color: red;
+}
+.nav-link.disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+color: #06BBCC !important;
+}

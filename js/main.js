@@ -86,7 +86,13 @@
         }
     });
 
-
+    // Register now functionality
+    $('#registerForm').submit(function(event) {
+        event.preventDefault();
+        // Handle registration logic here
+        alert('Registration successful!');
+        $('#registerNowModal').modal('hide');
+    });
     
 
       

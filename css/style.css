@@ -254,8 +254,13 @@ svg:not(:root) {
     /* background-image: linear-gradient(300deg, #809ade 27%, #0f54c3); */
     /* background-color: var(--light); */
     width: 99vw;
-    margin-left: -8rem;
+    margin-left: -1.5rem;
     background-color: #181d38;
+}
+@media (min-width: 992px) {
+    .coursedetails-section5 {
+    margin-left: -8rem;
+    }
 }
 
 .home-section2 {
@@ -578,6 +583,21 @@ del {
 .nav-link {
     padding-right: 1rem !important;
     padding-left: 1rem !important;
+}
+
+.error {
+    color: red;
+    display: none;
+}
+.required::after {
+    content: ' *';
+    color: red;
+}
+.modal-footer {
+    justify-content: center;
+}
+del {
+    font-size: 12px;
 }
 
 

@@ -213,10 +213,10 @@
         <a class="nav-link active" id="order-tab" data-toggle="tab" href="#order" role="tab" aria-controls="order" aria-selected="false">Order Summary</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" id="customer-tab" data-toggle="tab" href="#customer" role="tab" aria-controls="customer" aria-selected="false">Customer Information</a>
+        <a class="nav-link disabled" id="customer-tab" data-toggle="tab" href="#customer" role="tab" aria-controls="customer" aria-selected="false">Customer Information</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" id="payment-tab" data-toggle="tab" href="#payment" role="tab" aria-controls="payment" aria-selected="false">Payment Details</a>
+        <a class="nav-link disabled" id="payment-tab" data-toggle="tab" href="#payment" role="tab" aria-controls="payment" aria-selected="false">Payment Details</a>
       </li>
     </ul>
     <div class="tab-content" id="myTabContent">
@@ -261,9 +261,6 @@
                 </div>
               </div>
             </div>
-            <div class="ordersummary-btn">
-              <button class="btn btn-primary next-step" data-toggle="tab" href="#customer">Next Step</button>
-            </div>
           </div>
           <div class="col-12 col-md-6">
             <div class="ordersummary-rightdiv">
@@ -285,6 +282,10 @@
               </div>
             </div>
           </div>
+          
+          <div class="ordersummary-btn">
+            <button class="btn btn-primary next-step" data-toggle="tab" data-next="#customer-tab">Next Step</button>
+          </div>
         </div>
         <!-- <ul>
           <li>Product Name: Example Product 1</li>
@@ -303,16 +304,19 @@
         <h3>Customer Information</h3>
         <form>
           <div class="form-group">
-            <label for="firstName">First Name</label>
+            <label for="firstName" class="required">First Name</label>
             <input type="text" class="form-control" id="firstName" required>
+            <div class="error" id="fname-error"> First Name is required.</div>
           </div>
           <div class="form-group">
-            <label for="lastName">Last Name</label>
+            <label for="lastName" class="required">Last Name</label>
             <input type="text" class="form-control" id="lastName" required>
+            <div class="error" id="lname-error">Last Name is required.</div>
           </div>
           <div class="form-group">
-            <label for="email">Email Address</label>
+            <label for="email" class="required">Email Address</label>
             <input type="email" class="form-control" id="email" required>
+            <div class="error" id="email-error">Valid email is required.</div>
           </div>
           <div class="form-group">
             <label for="alternateEmail">Alternate Email Address</label>
@@ -323,8 +327,9 @@
             <input type="email" class="form-control" id="confirmAlternateEmail">
           </div>
           <div class="form-group">
-            <label for="phoneNumber">Phone Number</label>
+            <label for="phoneNumber" class="required">Phone Number</label>
             <input type="tel" class="form-control" id="phoneNumber" required>
+            <div class="error" id="phone-error">Phone number is required.</div>
           </div>
           <div class="form-group">
             <label for="alternatePhoneNumber">Alternate Phone Number</label>
@@ -335,10 +340,13 @@
             <input type="tel" class="form-control" id="confirmAlternatePhoneNumber">
           </div>
           <div class="form-group">
-            <label for="address">Address</label>
+            <label for="address" class="required">Address</label>
             <textarea class="form-control" id="address" rows="3" required></textarea>
+            <div class="error" id="address-error">Address is required.</div>
           </div>
-          <button class="btn btn-primary next-step" data-toggle="tab" href="#payment">Next Step</button>
+          <div class="ordersummary-btn">
+          <button id="customer-info-next" class="btn btn-primary" data-toggle="tab" data-next="#payment-tab">Next Step</button>
+          </div>
         </form>
       </div>
       <!-- Payment Details Tab -->
@@ -357,7 +365,9 @@
             <label for="cvv">CVV</label>
             <input type="text" class="form-control" id="cvv" required>
           </div>
+          <div class="ordersummary-btn">
           <button type="submit" class="btn btn-primary">Submit Payment</button>
+          </div>
         </form>
       </div>
     </div>
